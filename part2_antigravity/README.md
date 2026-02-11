@@ -243,17 +243,17 @@ git commit -m "Add Wine classification pipeline"
 
 After completing the lab, confirm you observed each feature:
 
-- [ ] **Rules (GEMINI.md)**: Code uses polars, not pandas
-- [ ] **Rules**: Logging format matches the prescribed pattern
-- [ ] **Rules**: Private functions start with underscore
-- [ ] **Rules**: Constants declared at file top, not hardcoded in functions
-- [ ] **Rules**: Functions are under 50 lines
-- [ ] **Workflow**: `/run-eda` produced EDA analysis
-- [ ] **Workflow**: `/train-model` produced model training output
-- [ ] **Skill**: `data-profiler` skill was available for dataset profiling
-- [ ] **Manager view**: Multiple agents worked in parallel
-- [ ] **Pre-commit hooks**: Ruff ran on commit
-- [ ] **Comparison**: You understand the difference between Antigravity rules and Claude Code hooks
+- [x] **Rules (GEMINI.md)**: Code uses polars, not pandas
+- [x] **Rules**: Logging format matches the prescribed pattern
+- [x] **Rules**: Private functions start with underscore
+- [x] **Rules**: Constants declared at file top, not hardcoded in functions
+- [x] **Rules**: Functions are under 50 lines
+- [x] **Workflow**: `/run-eda` produced EDA analysis
+- [x] **Workflow**: `/train-model` produced model training output
+- [x] **Skill**: `data-profiler` skill was available for dataset profiling
+- [x] **Manager view**: Multiple agents worked in parallel
+- [x] **Pre-commit hooks**: Ruff ran on commit
+- [x] **Comparison**: You understand the difference between Antigravity rules and Claude Code hooks
 
 ## Comparison with Claude Code
 
