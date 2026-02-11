@@ -241,20 +241,20 @@ Run git push --force origin main
 
 After completing the lab, confirm you observed each feature:
 
-- [ ] **CLAUDE.md**: Code uses polars, not pandas
-- [ ] **CLAUDE.md**: Logging format matches the prescribed pattern
-- [ ] **CLAUDE.md**: Private functions start with underscore
-- [ ] **CLAUDE.md**: Constants declared at file top, not hardcoded in functions
-- [ ] **CLAUDE.md**: Functions are under 50 lines
-- [ ] **Hook (command)**: Saw "Running ruff and py_compile..." status message
-- [ ] **Hook (prompt)**: Claude created or considered creating test files
-- [ ] **Hook (command)**: Force push was blocked
-- [ ] **Slash command**: `/plan` created a plan in `.scratchpad/`
-- [ ] **Slash command**: Plan followed the template from `.claude/commands/plan.md`
-- [ ] **Skill**: `/analyze-data` produced EDA analysis
-- [ ] **Skill**: `/evaluate-model` produced evaluation output
-- [ ] **Skill**: `/generate-report` produced `full_report.md`
-- [ ] **Subagent**: Claude explored existing code before implementing
+- [x] **CLAUDE.md**: Code uses polars, not pandas
+- [x] **CLAUDE.md**: Logging format matches the prescribed pattern
+- [x] **CLAUDE.md**: Private functions start with underscore
+- [x] **CLAUDE.md**: Constants declared at file top, not hardcoded in functions
+- [x] **CLAUDE.md**: Functions are under 50 lines
+- [x] **Hook (command)**: Saw "Running ruff and py_compile..." status message
+- [x] **Hook (prompt)**: Claude created or considered creating test files
+- [x] **Hook (command)**: Force push was blocked
+- [x] **Slash command**: `/plan` created a plan in `.scratchpad/`
+- [x] **Slash command**: Plan followed the template from `.claude/commands/plan.md`
+- [x] **Skill**: `/analyze-data` produced EDA analysis
+- [x] **Skill**: `/evaluate-model` produced evaluation output
+- [x] **Skill**: `/generate-report` produced `full_report.md`
+- [x] **Subagent**: Claude explored existing code before implementing
 
 ## Reference Material
 
